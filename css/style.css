@@ -66,6 +66,7 @@ body {
     text-decoration-line: none;
 }
 
+/* Logo */
 .logo {
     color: #000000;
     text-decoration-line: none;
@@ -83,6 +84,7 @@ footer .logo {
     color: #FFFFFF;
 }
 
+/* Нафигация */
 .site-nav .link {
     color: var(--primary-text-color);
     font-weight: 500;
@@ -95,6 +97,7 @@ footer .logo {
     color: var(--accent-color);
 }
 
+/* Герой */
 .hero-title {
     color: var(--white-text-color);
     font-weight: 900;
@@ -111,6 +114,7 @@ footer .logo {
     text-align: center;
 }
 
+/* Особенности */
 .feature-list .title {
     font-weight: 700;
     font-size: 14px;
@@ -123,6 +127,7 @@ footer .logo {
     line-height: 1.71;
 }
 
+/* Наша команда */
 .section-team {
     background-color: var(--secondary-background-color);
 }
@@ -139,6 +144,7 @@ footer .logo {
     line-height: 1.17;
 }
 
+/* Футер */
 .footer-address {
     line-height: 1.71;
     font-style: normal;
