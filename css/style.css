@@ -48,6 +48,7 @@ rgba(255, 255, 255, 0.6)
 .flex {
     display: flex;
 }
+
 /*  */
 
 html {
@@ -122,6 +123,7 @@ body {
 footer .logo {
     color: #FFFFFF;
 }
+
 /*  */
 
 /* Хедер */
@@ -193,6 +195,7 @@ header {
 .header-phone:focus {
     color: var(--accent-color);
 }
+
 /*  */
 
 /* Герой */
@@ -226,6 +229,7 @@ header {
     line-height: 1.17;
     text-align: center;
 }
+
 /*  */
 
 /* Особенности */
@@ -271,6 +275,7 @@ header {
     font-size: 14px;
     line-height: 1.71;
 }
+
 /*  */
 
 /* Чем мы занимаемся */
@@ -297,6 +302,7 @@ header {
 .work-list .item:last-child {
     margin-right: auto;
 }
+
 /*  */
 
 /* Наша команда */
@@ -344,6 +350,7 @@ header {
     font-size: 16px;
     line-height: 1.17;
 }
+
 /*  */
 
 /* Футер */
@@ -358,12 +365,19 @@ footer {
 }
 
 .footer-location {
+    display: inline-block;
+    margin-top: 20px;
+
     color: var(--white-text-color);
     text-decoration-line: none;
+
 }
 
 .footer-mail,
 .footer-phone {
+    display: inline-block;
+    margin-top: 9px;
+
     color: var(--white-transparent-text-color);
     text-decoration-line: none;
 }
@@ -377,4 +391,5 @@ footer {
 footer {
     background-color: var(--thirdary-bg-color);
 }
+
 /*  */
