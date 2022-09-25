@@ -253,7 +253,7 @@ header {
     background-color: var(--primary-bg-color);
 }
 
-.section-features .section-title{
+.section-features .section-title {
     visibility: hidden;
     margin-top: -94px;
 }
@@ -377,6 +377,10 @@ footer {
     padding-bottom: 60px;
 }
 
+.footer-group {
+    margin-left: 200px;
+}
+
 .footer-address {
     line-height: 1.71;
     font-style: normal;
@@ -409,4 +413,5 @@ footer {
 footer {
     background-color: var(--thirdary-bg-color);
 }
+
 /*  */
