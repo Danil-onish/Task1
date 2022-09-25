@@ -38,6 +38,10 @@ rgba(255, 255, 255, 0.6)
 
 .link {
     text-decoration-line: none;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
 }
 
 .text {
@@ -47,6 +51,7 @@ rgba(255, 255, 255, 0.6)
 
 .flex {
     display: flex;
+    flex-wrap: wrap;
 }
 
 /*  */
@@ -99,8 +104,8 @@ body {
 }
 
 .container {
-    padding-right: 215px;
-    padding-left: 215px;
+    padding-right: 15px;
+    padding-left: 15px;
     margin: 0 auto;
     width: 1600px;
     /* outline: 2px solid tomato; */
@@ -176,7 +181,7 @@ header {
 }
 
 .address {
-    margin-left: auto;
+    margin-left: 332px;
 }
 
 .header-mail,
@@ -194,6 +199,14 @@ header {
 .header-phone:hover,
 .header-phone:focus {
     color: var(--accent-color);
+}
+
+.nav {
+    margin-left: auto;
+}
+
+.address {
+    margin-right: auto;
 }
 
 /*  */
@@ -238,6 +251,11 @@ header {
     padding-bottom: 94px;
 
     background-color: var(--primary-bg-color);
+}
+
+.section-features .section-title{
+    visibility: hidden;
+    margin-top: -94px;
 }
 
 .feature-list {
@@ -382,8 +400,8 @@ footer {
     text-decoration-line: none;
 }
 
-.footer-link:hover,
-.footer-link:focus {
+.footer.link:hover,
+.footer.link:focus {
     text-decoration-line: underline;
 }
 
@@ -391,5 +409,4 @@ footer {
 footer {
     background-color: var(--thirdary-bg-color);
 }
-
 /*  */
